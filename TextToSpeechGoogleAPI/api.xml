@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TextToSpeechGoogleAPI</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.TextToSpeechController.TTSConverter(System.String,System.String)">
+            <summary>
+            convert text into audio file
+            </summary>
+            <param name="languageCode">e.g: Arabic(ar-AX), English(en-US)</param>
+            <param name="text">sentence to be converted into an audio file</param>
+            <returns>audio file</returns>
+            <response code="200">Returns audio file</response>
+            <response code="500">If an error occurs</response>     
+        </member>
+    </members>
+</doc>
